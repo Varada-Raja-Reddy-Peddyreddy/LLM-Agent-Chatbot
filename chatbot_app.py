@@ -49,7 +49,7 @@ def stream_graph_updates(user_input:str):
 if "messages" not in st. session_state:
     st.session_state['messages']=[]
 
-# sidebar fro userinput
+# sidebar for userinput
 
 def chatbot_sidebar():
     st.sidebar.title("Chat With the Assistant")
